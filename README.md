@@ -4,6 +4,10 @@
 
 ```conda install --file requirements.txt```
 
+## To train the model
+
+```python model.py```
+
 ## Running api application
 
 ```python app.py```
