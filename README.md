@@ -1,5 +1,9 @@
 # Lineer Regression Example API
 
+## Build and deploy app with Docker
+
+```docker-compose up -d```
+
 ## Installing packages with conda
 
 ```conda install --file requirements.txt```
@@ -21,4 +25,5 @@ Postman'de istek atarken data türü raw JSON seçilerek json formatonda paramet
 
 | Method | Url                                                | Açıklama                              | Parametreler                                 |
 |--------|----------------------------------------------------|---------------------------------------|----------------------------------------------|
+| GET    | /                                                  | Test                                  |                                              |
 | POST   | /predict                                           | Model Tahmini                         | { "X": [[4,4]] }                             |
