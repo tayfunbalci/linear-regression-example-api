@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  ml-lineer-regression-api:
+    container_name: ml-lineer-regression-api
+    build: .
+    ports:
+      - "5000:5000"
